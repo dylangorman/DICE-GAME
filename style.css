@@ -1,0 +1,162 @@
+/* INSTALL FONT  */
+@font-face {
+    font-family: 'whoopassregular';
+    src: url('whoopass-webfont.woff2') format('woff2'),
+    url('whoopass-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* APPLY FONT TO BODY  */
+body{
+    font-family: 'whoopassregular';
+}
+/* WELCOME HEADING STYLE  */
+h1{
+    color: white;
+    font-size: 5rem;
+    position: relative;
+    text-align: center;
+    -webkit-text-stroke: 2px black
+    
+}
+welcome{
+    height: 150px;
+
+}
+/* GAME WRAPPER  */
+.wrapper {
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-color: black;
+}
+.dice {
+  right: 50px;
+}
+/* GAME LAYOUT  */
+/* PLAYER 1 DETAILS  */
+#n-0 {
+    font-size: 90px;
+}
+#s-0{
+    font-size: 70px;
+}
+.player-0-box {
+    background-image: url("player_1`.jpg");
+    
+    background-size: 450px 700px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+    float: left;
+    height: 700px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+/* PLAYER 2 DETAILS  */
+#n-1 {
+    font-size: 90px;
+}
+#s-1{
+    font-size: 70px;
+}
+.player-1-box {
+    background-image: url("player_2.jpg");
+    background-size: 400px 700px;
+    display: flex;
+    flex-direction: column;
+    margin: left;
+    float: right;
+    width: 400px;
+    height: 700px;
+    -webkit-text-stroke: 2px white;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+/* PLAYER 1&2 DETAILS  */
+.player-current-label{
+    font-size: 80px;
+}
+.player-current-score{
+    font-size: 70px;
+}
+/* PLAYER 1 ROLL IMAGE  */
+img {
+    width: 300px;
+    height: 300px;
+    
+}
+
+
+/* BUTTON FONT & COLOUR  */
+button{
+    font-family: 'whoopassregular';
+}
+.placeholder{
+    font-family: 'whoopassregular';
+}
+.final-score{
+    font-family: 'whoopassregular';
+    color: black;
+}
+/* NEW GAME BUTTON  */
+button{
+    font-size: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    width: 612px;
+    height: 50px;
+    text-align: center;
+}
+.final-score{
+    font-size: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    width: 582px;
+    height: 30px;
+    text-align: center;
+}
+button {
+    cursor: pointer;
+}
+
+img{
+    
+    position: absolute;
+    left: 571px;
+    top: 510px;
+    
+}
+
+
+ /* DICE ROLL COVER IMAGE   */
+    /* .cover {
+    height:350px;
+    width: 350px;
+    background-image: url("fight!.jpg");
+    z-index: 1;
+    position: relative;
+    left:535px;
+    top:70px;
+    border: solid;
+    background-repeat: no-repeat;
+}  */
+
+
+
+
+

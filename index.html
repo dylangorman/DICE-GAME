@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>D I C E  &nbsp;&nbsp;G A M E</title>
+    </head>
+    <body>
+        <div id = "welcome">
+        <!-- WELCOME TITLE  -->
+        <h1>W E L C O M E &nbsp;&nbsp;T O &nbsp;&nbsp;D I C E &nbsp;&nbsp;B A T T L E</h1>
+        </div>
+        <!-- WHOLE GAME DIV  -->
+        <div class="wrapper">
+            <!-- PLAYER 1 SCREEN  -->
+            <div class="player-0-box active">
+                <!-- NAME P1 -->
+                <div class="Players-Name" id="n-0">Player 1</div>
+                <!-- TOTAL SCORE P1-->
+                <div class="Players-Score" id="s-0">43</div>
+                <!-- CURRENT ROLL SCORE P1 -->
+                <div class="player-current-box">
+                    <!-- CURRENT TITLE P1 -->
+                    <div class="player-current-label">Current</div>
+                    <!-- CURRENT SCORE P1 -->
+                    <div class="player-current-score" id="currentPlayer-0">11</div>
+                </div>
+                <!-- DICE ROLL IMAGE PLAYER 1 -->
+                
+            </div>
+            <!-- PLAYER 2 SCREEN  -->
+            <div class="player-1-box">
+                <!-- NAME  P2-->
+                <div class="Players-Name" id="n-1">Player 2</div>
+                <!-- TOTAL SCORE P2-->
+                <div class="Players-Score" id="s-1">72</div>
+                <!-- CURRENT ROLL SCORE P2-->
+                <div class="player-current-box">
+                    <!-- CURRENT TITLE  p2-->
+                    <div class="player-current-label">Current</div>
+                    <!-- CURRENT SCORE  P2-->
+                    <div class="player-current-score" id="currentPlayer-1">0</div>
+                </div>
+            </div>
+
+
+            <!-- BUTTONS  -->
+            <!-- NEW GAME  -->
+            <button class="btn-new">New game</button>
+            <!-- DICE ROLL  -->
+            <div id = "diceRoll">
+            <div class="dice"></div>
+            <button class ="btn-roll">Roll dice</button>
+            <!-- DICE ROLL SOUND  -->
+            <audio id="dicey" src="diceRollSound.wav"></audio>
+            </div>
+            <!-- HOLD  -->
+            <button class="btn-hold">Hold</button>
+            <!-- FINAL SCORE ADJUSTMENT  -->
+            <input type="text" placeholder="SET YOUR HIGHSCORE HERE.." class="final-score">
+            </div>
+            <div class = "cover"></div>
+                <img src="" class="dice" id="dice-1">
+            
+        </div>
+        <!-- JAVA SCRIPT LINK  -->
+        <script src="script.js"></script>
+    </body>
+</html>
