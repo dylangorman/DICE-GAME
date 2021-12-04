@@ -31,7 +31,11 @@ welcome{
     border-style: solid;
     border-color: black;
 }
+#dice-1{
+    z-index: -;
+}
 .dice {
+    
   right: 50px;
 }
 /* GAME LAYOUT  */
@@ -134,30 +138,16 @@ button{
 button {
     cursor: pointer;
 }
-
 img{
-    
     position: absolute;
     left: 571px;
     top: 510px;
-    
 }
 
-
- /* DICE ROLL COVER IMAGE   */
-    /* .cover {
-    height:350px;
-    width: 350px;
-    background-image: url("fight!.jpg");
-    z-index: 1;
-    position: relative;
-    left:535px;
-    top:70px;
-    border: solid;
-    background-repeat: no-repeat;
-}  */
-
-
+/* #dice-1{
+    z-index: -1;
+}
+ */
 
 
 
