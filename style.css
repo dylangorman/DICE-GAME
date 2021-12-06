@@ -32,7 +32,7 @@ welcome{
     border-color: black;
 }
 #dice-1{
-    z-index: -;
+    z-index: 0;
 }
 .dice {
     
@@ -49,13 +49,13 @@ welcome{
 .player-0-box {
     background-image: url("player_1`.jpg");
     
-    background-size: 450px 700px;
+    background-size: 600px 750px;
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 400px;
+    width: 600px;
     float: left;
-    height: 700px;
+    height: 750px;
     color: white;
     -webkit-text-stroke: 2px black;
     border-style: solid;
@@ -72,13 +72,13 @@ welcome{
 }
 .player-1-box {
     background-image: url("player_2.jpg");
-    background-size: 400px 700px;
+    background-size: 600px 750px;
     display: flex;
     flex-direction: column;
     margin: left;
     float: right;
-    width: 400px;
-    height: 700px;
+    width: 600px;
+    height: 750px;
     -webkit-text-stroke: 2px white;
     border-style: solid;
     border-color: black;
@@ -93,9 +93,10 @@ welcome{
 }
 /* PLAYER 1 ROLL IMAGE  */
 img {
+    position: absolute;
     width: 300px;
     height: 300px;
-    
+    left:810px;
 }
 
 
@@ -119,8 +120,8 @@ button{
     position: relative;
     margin: auto;
     padding: 10px;
-    width: 612px;
-    height: 50px;
+    width:692px;
+    height: 100px;
     text-align: center;
 }
 .final-score{
@@ -131,23 +132,23 @@ button{
     position: relative;
     margin: auto;
     padding: 10px;
-    width: 582px;
-    height: 30px;
+    width: 662px;
+    height: 70px;
     text-align: center;
 }
 button {
     cursor: pointer;
 }
-img{
-    position: absolute;
-    left: 571px;
-    top: 510px;
-}
 
-/* #dice-1{
-    z-index: -1;
+
+@media only screen and (max-width: 450px) {
+    
+    h1{
+        color: black;
+    }
+    
+    
 }
- */
 
 
 
