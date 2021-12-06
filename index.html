@@ -7,12 +7,13 @@
         <title>D I C E  &nbsp;&nbsp;G A M E</title>
     </head>
     <body>
+         <!-- WHOLE GAME DIV  -->
+    <div class="wrapper">
         <div id = "welcome">
         <!-- WELCOME TITLE  -->
         <h1>W E L C O M E &nbsp;&nbsp;T O &nbsp;&nbsp;D I C E &nbsp;&nbsp;B A T T L E</h1>
         </div>
-        <!-- WHOLE GAME DIV  -->
-        <div class="wrapper">
+       
             <!-- PLAYER 1 SCREEN  -->
             <div class="player-0-box active">
                 <!-- NAME P1 -->
@@ -48,23 +49,22 @@
             <!-- BUTTONS  -->
             <!-- NEW GAME  -->
             <button class="btn-new">New game</button>
-            <!-- DICE ROLL  -->
+                    <!-- DICE ROLL  -->
             <div id = "diceRoll">
-            <div class="dice"></div>
-            <button class ="btn-roll">Roll dice</button>
-            <!-- DICE ROLL SOUND  -->
-            <audio id="dicey" src="diceRollSound.wav"></audio>
+                <div class="dice"></div>
+                    <button class ="btn-roll">Roll dice</button>
+                    <!-- DICE ROLL SOUND  -->
+                    <audio id="dicey" src="diceRollSound.wav"></audio>
             </div>
-            <!-- HOLD  -->
+                    <!-- HOLD  -->
             <button class="btn-hold">Hold</button>
-            <!-- FINAL SCORE ADJUSTMENT  -->
+                    <!-- FINAL SCORE ADJUSTMENT  -->
             <input type="text" placeholder="SET YOUR HIGHSCORE HERE.." class="final-score">
-            </div>
-            <div class = "cover">
-                <img src="fight!.jpg" class="dice" id="dice-1">
+                <div class = "cover">
+                        <img src="fight!.jpg" class="dice" id="dice-1">
                 
-            </div>
-        </div>
+                </div>
+        </div>    
         <!-- JAVA SCRIPT LINK  -->
         <script src="script.js"></script>
     </body>
